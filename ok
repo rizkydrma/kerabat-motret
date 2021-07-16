@@ -1,0 +1,39 @@
+[1mdiff --git a/src/elements/button/index.js b/src/elements/button/index.js[m
+[1mdeleted file mode 100644[m
+[1mindex f60cb0e..0000000[m
+[1m--- a/src/elements/button/index.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,30 +0,0 @@[m
+[31m-/* eslint-disable react/jsx-no-target-blank */[m
+[31m-import React from 'react';[m
+[31m-import { Link } from 'react-router-dom';[m
+[31m-[m
+[31m-export default function index(props) {[m
+[31m-  const className = [props.className];[m
+[31m-[m
+[31m-  if (props.type === 'link') {[m
+[31m-    if (props.isExternal) {[m
+[31m-      return ([m
+[31m-        <a[m
+[31m-          href={props.href}[m
+[31m-          className={className.join(' ')}[m
+[31m-          target={props.target === '_blank' ? '_blank' : undefined}[m
+[31m-          rel={props.target === '_blank' ? 'noopener noreferrer' : undefined}[m
+[31m-        >[m
+[31m-          {props.children}[m
+[31m-        </a>[m
+[31m-      );[m
+[31m-    } else {[m
+[31m-      return ([m
+[31m-        <Link to={props.href} className={className.join(' ')}>[m
+[31m-          {props.children}[m
+[31m-        </Link>[m
+[31m-      );[m
+[31m-    }[m
+[31m-  }[m
+[31m-[m
+[31m-  return <button className={className.join(' ')}>{props.children}</button>;[m
+[31m-}[m
+[1mdiff --git a/src/elements/button/index.scss b/src/elements/button/index.scss[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
