@@ -3,11 +3,9 @@ import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Route path="/" component={LandingPage} exact></Route>
-      </Router>
-    </div>
+    <Router>
+      <Route path="/" component={LandingPage} exact></Route>
+    </Router>
   );
 }
 

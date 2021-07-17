@@ -1,0 +1,40 @@
+.social-media {
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    color: #fff;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.6);
+      transition: 0.3s color ease-in-out;
+    }
+  }
+}
+
+nav .social-media {
+  position: fixed;
+  right: 0;
+  top: 270px;
+  display: flex;
+  z-index: 29;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+footer .social-media {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media (max-width: 468px) {
+  nav .social-media {
+    display: none;
+  }
+}

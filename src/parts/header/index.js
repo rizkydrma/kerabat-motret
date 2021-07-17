@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './index.scss';
 import BrandIcon from 'parts/icontext';
 import Button from 'elements/button';
+import SocialMedia from 'elements/socialmedia';
 import Logo from 'assets/images/logo.png';
 
 export default function Header() {
@@ -14,17 +15,17 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <div class="nav-items">
-          <Button href="" type="link">
-            <img src={Logo} class="img-logo" alt="" />
+        <div className="nav-items">
+          <Button href="/" type="link">
+            <img src={Logo} className="img-logo" alt="" />
           </Button>
           <BrandIcon />
-          <div class="hamburger-menu" onClick={() => handleDrawer()}>
-            <div class="bar"></div>
+          <div className="hamburger-menu" onClick={() => handleDrawer()}>
+            <div className="bar"></div>
           </div>
         </div>
 
-        <ul class={`nav-links ${drawer ? 'open' : ''} `}>
+        <ul className={`nav-links ${drawer ? 'open' : ''} `}>
           <li>
             <Button href="/about-us" type="link">
               About Us
@@ -47,48 +48,7 @@ export default function Header() {
           </li>
         </ul>
 
-        <ul class="social-media">
-          <li>
-            <Button
-              href="https://facebook.com"
-              type="link"
-              target="_blank"
-              isExternal
-            >
-              <i class="fab fa-facebook-f"></i>
-            </Button>
-          </li>
-          <li>
-            <Button
-              href="https://instagram.com/kerabat_motret"
-              type="link"
-              target="_blank"
-              isExternal
-            >
-              <i class="fab fa-instagram"></i>
-            </Button>
-          </li>
-          <li>
-            <Button
-              href="https://twitter.com"
-              type="link"
-              target="_blank"
-              isExternal
-            >
-              <i class="fab fa-twitter"></i>
-            </Button>
-          </li>
-          <li>
-            <Button
-              href="https://youtube.com"
-              type="link"
-              target="_blank"
-              isExternal
-            >
-              <i class="fab fa-youtube"></i>
-            </Button>
-          </li>
-        </ul>
+        <SocialMedia />
       </nav>
     </header>
   );
