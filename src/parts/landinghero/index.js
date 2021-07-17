@@ -3,11 +3,11 @@ import './index.scss';
 import Mountain1 from 'assets/images/background/mountain-1.png';
 import Mountain2 from 'assets/images/background/mountain-2.png';
 
-export default function LandingHero() {
+export default function LandingHero(props) {
   return (
     <div className="landing-hero">
       <h1 className="big-title translate" data-speed="0.7">
-        Kerabat Motret.
+        {props.data.title}
       </h1>
 
       <img
