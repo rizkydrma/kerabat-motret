@@ -3,13 +3,13 @@ import './index.scss';
 import Button from 'elements/button';
 
 export default function LandingProjects({ data }) {
-  console.log(data);
   return (
     <section id="portfolio">
       <div className="container portfolio">
         {data.listProjects.map((project, i) => (
           <figure
             className={`portfolio__image ${'portfolio__image' + Number(i + 1)}`}
+            key={i}
           >
             <img src={project.imageUrl} alt={`project${i}`} />
           </figure>

@@ -1,0 +1,60 @@
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+  }
+
+  .meta-wrapper {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2,
+    p {
+      display: inline-block;
+      cursor: default;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-weight: 200;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 468px) {
+      h2 {
+        font-size: 1.25rem;
+      }
+
+      p {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

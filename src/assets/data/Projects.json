@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "Couple Session Of Yuda & Resti",
+      "category": "Couple Session",
+      "place": "Bandung Indonesia",
+      "imageUrl": "/images/projects/project-1.jpg",
+      "galleryImages": [
+        "/images/projects/project-1/yuda-1.jpg",
+        "/images/projects/project-1/yuda-2.jpg",
+        "/images/projects/project-1/yuda-3.jpg",
+        "/images/projects/project-1/yuda-4.jpg",
+        "/images/projects/project-1/yuda-5.jpg",
+        "/images/projects/project-1/yuda-6.jpg",
+        "/images/projects/project-1/yuda-7.jpg",
+        "/images/projects/project-1/yuda-8.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Couple Session Of Rexy & Otin",
+      "category": "Couple Session",
+      "place": "Ciwidey Indonesia",
+      "imageUrl": "/images/projects/project-2.png"
+    },
+    {
+      "id": "3",
+      "name": "The Engagement Of Deden & Dewi",
+      "category": "Engagement",
+      "place": "Cimahi Indonesia",
+      "imageUrl": "/images/projects/project-3.png"
+    }
+  ]
+}

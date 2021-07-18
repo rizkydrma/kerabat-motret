@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom';
 export default function index(props) {
   const className = [props.className];
 
+  const onClick = () => {
+    if (props.onClick) props.onClick();
+  };
+
   if (props.type === 'link') {
     if (props.isExternal) {
       return (
@@ -26,5 +30,9 @@ export default function index(props) {
     }
   }
 
-  return <button className={className.join(' ')}>{props.children}</button>;
+  return (
+    <button className={className.join(' ')} onClick={onClick}>
+      {props.children}
+    </button>
+  );
 }

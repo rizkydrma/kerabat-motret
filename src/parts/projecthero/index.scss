@@ -1,0 +1,41 @@
+.projectHero {
+  padding: 0 5rem;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+
+    .projectHero__title {
+      font-size: 3.25rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .projectHero__image {
+      margin-left: -1.2rem;
+    }
+  }
+}
+
+@media (max-width: 468px) {
+  .projectHero {
+    padding: 0 1rem;
+
+    .container {
+      flex-direction: column-reverse;
+      min-height: 450px;
+
+      .projectHero__image {
+        margin-left: 0;
+        width: 50%;
+      }
+
+      .projectHero__title {
+        margin-top: -2rem;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
