@@ -1,0 +1,46 @@
+.features__table {
+  tbody tr td:not(:nth-child(1)),
+  thead tr td:not(:nth-child(1)) {
+    text-align: center;
+  }
+  margin-top: 50px;
+  width: 100%;
+  border-spacing: 0;
+
+  thead {
+    text-transform: uppercase;
+    height: 60px;
+    background-color: #0e0e0e;
+
+    tr td:nth-child(1) {
+      padding: 0 20px;
+    }
+  }
+
+  tbody {
+    background-color: #1c1c1c;
+    transform: translateY(10px);
+    font-weight: 300;
+    height: 350px;
+
+    tr td:nth-child(1) {
+      padding: 0 20px;
+    }
+
+    i {
+      color: #ffd600;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (max-width: 468px) {
+  .features table,
+  .features table i {
+    font-size: 0.6rem;
+  }
+
+  .features table thead tr td {
+    padding: 0 10px;
+  }
+}

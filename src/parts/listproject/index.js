@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import Button from 'elements/button';
 import projects from 'assets/data/Projects.json';
@@ -31,12 +31,10 @@ export default function ListProject() {
             All
           </Button>
           <Button
-            className={`btn-plan ${
-              isActive === 'Couple Session' ? 'active' : ''
-            }`}
-            onClick={() => handleListProjects('Couple Session')}
+            className={`btn-plan ${isActive === 'Couple' ? 'active' : ''}`}
+            onClick={() => handleListProjects('Couple')}
           >
-            Couple Session
+            Couple
           </Button>
           <Button
             className={`btn-plan ${isActive === 'Engagement' ? 'active' : ''}`}

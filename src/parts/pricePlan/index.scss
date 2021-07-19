@@ -1,0 +1,143 @@
+.plan {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .business-plan {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+      padding: 5px;
+      height: 50px;
+      background-color: #1c1c1c;
+      border-radius: 30px;
+
+      .btn-plan {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 12px;
+        border-radius: 20px;
+
+        &:hover {
+          color: rgba(255, 255, 255, 0.6);
+          transition: 0.3s color ease-in-out;
+        }
+
+        &.active {
+          background-color: #404040;
+        }
+      }
+    }
+  }
+
+  .container__card {
+    min-height: 500px;
+    column-gap: 20px;
+  }
+}
+@media (max-width: 468px) {
+  .plan {
+    .container {
+      &:nth-child(1) {
+        margin-bottom: 10px;
+      }
+
+      .business-plan {
+        width: 100%;
+        height: auto;
+        overflow-x: scroll;
+      }
+    }
+  }
+
+  .plan .plan__card {
+    margin: -1rem 0;
+  }
+
+  .plan .plan__card.card__sub {
+    transform: scale(0.8);
+  }
+  .plan .plan__card.card__main {
+    transform: scale(0.9);
+  }
+
+  .business-plan .btn-plan {
+    font-size: 0.5rem;
+    padding: 6px;
+  }
+  .container__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.features {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 500px;
+
+  .container {
+    padding: 0 9rem;
+
+    .features__title {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    .features__sub-title {
+      text-align: center;
+      font-weight: 300;
+    }
+  }
+}
+
+@media (max-width: 468px) {
+  .container,
+  .features .container,
+  footer .container {
+    padding: 0 1rem;
+  }
+
+  .plan .container:nth-child(1) {
+    margin-bottom: 10px;
+  }
+
+  .plan .business-plan {
+    width: 100%;
+    height: auto;
+  }
+
+  .plan .plan__card {
+    margin: -1rem 0;
+  }
+
+  .plan .plan__card.card__sub {
+    transform: scale(0.8);
+  }
+  .plan .plan__card.card__main {
+    transform: scale(0.9);
+  }
+
+  .business-plan .btn-plan {
+    font-size: 0.5rem;
+    padding: 6px;
+  }
+  .container__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .features .features__title,
+  .features .features__sub-title {
+    transform: scale(0.7);
+  }
+}

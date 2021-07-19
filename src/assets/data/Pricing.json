@@ -1,0 +1,262 @@
+{
+  "pricing": [
+    {
+      "planName": "Couple",
+      "options": [
+        {
+          "type": "Basic",
+          "price": "499.123",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": false,
+              "cinematicVideo": false,
+              "tenPrintedPhoto": false,
+              "photoWithFrame": false
+            }
+          ]
+        },
+        {
+          "type": "Premium",
+          "price": "599.453",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": true,
+              "cinematicVideo": false,
+              "tenPrintedPhoto": true,
+              "photoWithFrame": false
+            }
+          ]
+        },
+        {
+          "type": "Best",
+          "price": "699,456",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": true,
+              "cinematicVideo": true,
+              "tenPrintedPhoto": true,
+              "photoWithFrame": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "planName": "Engagement",
+      "options": [
+        {
+          "type": "Basic",
+          "price": "399.221",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": false,
+              "cinematicVideo": false,
+              "tenPrintedPhoto": false,
+              "photoWithFrame": false
+            }
+          ]
+        },
+        {
+          "type": "Premium",
+          "price": "499.891",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": true,
+              "cinematicVideo": false,
+              "tenPrintedPhoto": true,
+              "photoWithFrame": false
+            }
+          ]
+        },
+        {
+          "type": "Best",
+          "price": "649.542",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": true,
+              "cinematicVideo": true,
+              "tenPrintedPhoto": true,
+              "photoWithFrame": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "planName": "Wedding",
+      "options": [
+        {
+          "type": "Best",
+          "price": "1.399.542",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": true,
+              "cinematicVideo": true,
+              "tenPrintedPhoto": true,
+              "photoWithFrame": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "planName": "Product",
+      "options": [
+        {
+          "type": "Basic",
+          "price": "199.221",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": false,
+              "cinematicVideo": false,
+              "tenPrintedPhoto": false,
+              "photoWithFrame": false
+            }
+          ]
+        },
+        {
+          "type": "Premium",
+          "price": "299.891",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": false,
+              "cinematicVideo": false,
+              "tenPrintedPhoto": false,
+              "photoWithFrame": false
+            }
+          ]
+        },
+        {
+          "type": "Best",
+          "price": "349.542",
+          "features": [
+            {
+              "softFiles": true,
+              "tenSelectedPhoto": true,
+              "twentyfiveSelectedPhoto": false,
+              "cinematicVideo": false,
+              "tenPrintedPhoto": false,
+              "photoWithFrame": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "featuresName": "Couple",
+      "type": ["Basic", "Premium", "Best"],
+      "options": [
+        {
+          "softFiles": [true, true, true]
+        },
+        {
+          "tenSelectedPhoto": [true, true, true]
+        },
+        {
+          "twentyfiveSelectedPhoto": [false, true, true]
+        },
+        {
+          "cinematicVideo": [false, false, true]
+        },
+        {
+          "tenPrintedPhoto": [true, true, true]
+        },
+        {
+          "photoWithFrame": [false, false, true]
+        }
+      ]
+    },
+    {
+      "featuresName": "Engagement",
+      "type": ["Basic", "Premium", "Best"],
+      "options": [
+        {
+          "softFiles": [true, true, true]
+        },
+        {
+          "tenSelectedPhoto": [true, true, true]
+        },
+        {
+          "twentyfiveSelectedPhoto": [false, true, true]
+        },
+        {
+          "cinematicVideo": [false, false, true]
+        },
+        {
+          "tenPrintedPhoto": [false, true, true]
+        },
+        {
+          "photoWithFrame": [false, false, true]
+        }
+      ]
+    },
+    {
+      "featuresName": "Wedding",
+      "type": ["Best"],
+      "options": [
+        {
+          "softFiles": [true]
+        },
+        {
+          "tenSelectedPhoto": [true]
+        },
+        {
+          "twentyfiveSelectedPhoto": [true]
+        },
+        {
+          "cinematicVideo": [true]
+        },
+        {
+          "tenPrintedPhoto": [true]
+        },
+        {
+          "photoWithFrame": [true]
+        }
+      ]
+    },
+    {
+      "featuresName": "Product",
+      "type": ["Basic", "Premium", "Best"],
+      "options": [
+        {
+          "softFiles": [true, true, true]
+        },
+        {
+          "tenSelectedPhoto": [true, true, true]
+        },
+        {
+          "twentyfiveSelectedPhoto": [false, true, true]
+        },
+        {
+          "cinematicVideo": [false, false, true]
+        },
+        {
+          "tenPrintedPhoto": [false, true, true]
+        },
+        {
+          "photoWithFrame": [false, false, true]
+        }
+      ]
+    }
+  ]
+}

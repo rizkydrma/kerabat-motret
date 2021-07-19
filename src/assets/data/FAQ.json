@@ -1,0 +1,24 @@
+{
+  "faq": [
+    {
+      "question": "How about the shooting time?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non porro excepturi incidunt beatae maiores, quam adipisci tempora dolores deserunt architecto."
+    },
+    {
+      "question": "Can the schedule be adjusted?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non porro excepturi incidunt beatae maiores, quam adipisci tempora dolores deserunt architecto."
+    },
+    {
+      "question": "how about we cancel?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non porro excepturi incidunt beatae maiores, quam adipisci tempora dolores deserunt architecto."
+    },
+    {
+      "question": "is there an upfront payment?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non porro excepturi incidunt beatae maiores, quam adipisci tempora dolores deserunt architecto."
+    },
+    {
+      "question": "is there a friend price?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non porro excepturi incidunt beatae maiores, quam adipisci tempora dolores deserunt architecto."
+    }
+  ]
+}

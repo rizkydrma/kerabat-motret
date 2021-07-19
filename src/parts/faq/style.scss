@@ -1,0 +1,179 @@
+.faq {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 400px;
+}
+
+.faq .container:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
+.faq .faq__title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.faq .container:nth-child(2) {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  background-color: #1c1c1c;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 1rem;
+  box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.accordion-link {
+  font-weight: 300;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.accordion-link .fa-minus {
+  display: none;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #202020;
+  color: #fff;
+  transition: 0.9s all ease-in-out;
+}
+
+.answer::before {
+  content: '';
+  position: absolute;
+  width: 0.3rem;
+  height: 100%;
+  background-color: #4b52c6;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+}
+
+.accordion-item:target .answer {
+  max-height: 15rem;
+}
+
+.accordion-item:target .accordion-link .fa-plus {
+  display: none;
+}
+
+.accordion-item:target .fa-minus {
+  display: block;
+}
+
+@media (max-width: 468px) {
+  .hero {
+    padding: 0 1rem;
+    background-size: cover;
+  }
+
+  .hero .container h1 {
+    font-size: 3rem;
+  }
+
+  .hero .container p {
+    font-size: 0.7rem;
+  }
+
+  .nav-items {
+    padding: 1rem 3rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-links li {
+    margin-bottom: 2rem;
+  }
+
+  .nav-links li a {
+    font-size: 1.2rem;
+  }
+  .nav-items {
+    padding: 1rem 2rem;
+  }
+  nav .social-media {
+    display: none;
+  }
+  .container,
+  .features .container,
+  footer .container {
+    padding: 0 1rem;
+  }
+
+  .plan .container:nth-child(1) {
+    margin-bottom: 10px;
+  }
+
+  .plan .business-plan {
+    width: 100%;
+    height: auto;
+  }
+
+  .plan .plan__card {
+    margin: -1rem 0;
+  }
+
+  .plan .plan__card.card__sub {
+    transform: scale(0.8);
+  }
+  .plan .plan__card.card__main {
+    transform: scale(0.9);
+  }
+
+  .business-plan .btn-plan {
+    font-size: 0.5rem;
+    padding: 6px;
+  }
+  .container__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .features .features__title,
+  .features .features__sub-title {
+    transform: scale(0.7);
+  }
+
+  .features table,
+  .features table i {
+    font-size: 0.8rem;
+  }
+
+  .features table thead tr td {
+    padding: 0 10px;
+  }
+
+  .faq .container:nth-child(2) {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .faq .faq__title {
+    font-size: 1.5rem;
+  }
+
+  .accordion-link {
+    font-size: 0.8rem;
+  }
+}

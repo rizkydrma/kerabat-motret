@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 600px;
+  padding: 0 10rem;
+  background-image: url('/assets/images/background/background-pricing.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  background-position: center center;
+
+  .container {
+    margin-top: 3rem;
+    text-align: center;
+
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 4rem;
+      display: inline;
+    }
+
+    p {
+      font-weight: 300;
+    }
+  }
+}
+
+@media (max-width: 468px) {
+  .hero {
+    padding: 0 1rem;
+    background-size: cover;
+
+    .container h1 {
+      font-size: 3rem;
+    }
+
+    .container p {
+      font-size: 0.7rem;
+    }
+  }
+}
