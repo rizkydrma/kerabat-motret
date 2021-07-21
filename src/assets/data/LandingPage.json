@@ -4,10 +4,10 @@
   },
   "selection": [
     {
-      "name": "Portfolio",
+      "name": "Free Presets",
       "imageUrl": "images/selection/picture1.png",
       "speed": "0.3",
-      "target": "/portfolio"
+      "target": "/free-presets"
     },
     {
       "name": "Pricing",

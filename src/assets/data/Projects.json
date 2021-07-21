@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Couple Session Of Yuda & Resti",
-      "category": "Couple Session",
+      "category": "Couple",
       "place": "Bandung Indonesia",
       "imageUrl": "/images/projects/project-1.jpg",
       "galleryImages": [
@@ -20,9 +20,31 @@
     {
       "id": "2",
       "name": "Couple Session Of Rexy & Otin",
-      "category": "Couple Session",
+      "category": "Couple",
       "place": "Ciwidey Indonesia",
-      "imageUrl": "/images/projects/project-2.png"
+      "imageUrl": "/images/projects/project-2.jpg",
+      "galleryImages": [
+        "/images/projects/rexy/rexy-1.jpg",
+        "/images/projects/rexy/rexy-2.jpg",
+        "/images/projects/rexy/rexy-3.jpg",
+        "/images/projects/rexy/rexy-4.jpg",
+        "/images/projects/rexy/rexy-5.jpg",
+        "/images/projects/rexy/rexy-6.jpg",
+        "/images/projects/rexy/rexy-7.jpg",
+        "/images/projects/rexy/rexy-8.jpg",
+        "/images/projects/rexy/rexy-9.jpg",
+        "/images/projects/rexy/rexy-10.jpg",
+        "/images/projects/rexy/rexy-11.jpg",
+        "/images/projects/rexy/rexy-12.jpg",
+        "/images/projects/rexy/rexy-13.jpg",
+        "/images/projects/rexy/rexy-14.jpg",
+        "/images/projects/rexy/rexy-15.jpg",
+        "/images/projects/rexy/rexy-16.jpg",
+        "/images/projects/rexy/rexy-17.jpg",
+        "/images/projects/rexy/rexy-18.jpg",
+        "/images/projects/rexy/rexy-19.jpg",
+        "/images/projects/rexy/rexy-20.jpg"
+      ]
     },
     {
       "id": "3",
@@ -30,6 +52,26 @@
       "category": "Engagement",
       "place": "Cimahi Indonesia",
       "imageUrl": "/images/projects/project-3.png"
+    },
+    {
+      "id": "4",
+      "name": "Collaboration Of Siti",
+      "category": "Collaboration",
+      "place": "Bandung Barat, Indonesia",
+      "imageUrl": "/images/projects/project-4.jpg",
+      "galleryImages": [
+        "/images/projects/siti/siti-1.jpg",
+        "/images/projects/siti/siti-2.jpg",
+        "/images/projects/siti/siti-3.jpg",
+        "/images/projects/siti/siti-4.jpg",
+        "/images/projects/siti/siti-5.jpg",
+        "/images/projects/siti/siti-6.jpg",
+        "/images/projects/siti/siti-7.jpg",
+        "/images/projects/siti/siti-8.jpg",
+        "/images/projects/siti/siti-9.jpg",
+        "/images/projects/siti/siti-10.jpg",
+        "/images/projects/siti/siti-11.jpg"
+      ]
     }
   ]
 }

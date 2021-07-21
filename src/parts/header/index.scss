@@ -19,6 +19,10 @@ nav {
     align-items: center;
     z-index: 30;
 
+    &.stickyNavbar {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
     & a:hover {
       opacity: 0.6;
       transition: 0.3s opacity ease-in-out;

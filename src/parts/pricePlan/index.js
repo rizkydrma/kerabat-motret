@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Fade } from 'react-awesome-reveal';
 import './index.scss';
 import TableFeatures from 'parts/tableFeatures';
 import Button from 'elements/button';
@@ -83,7 +84,9 @@ export default function PricePlan() {
           </p>
         </div>
         <div className="container">
-          <TableFeatures data={features} />
+          <Fade duration={3000} triggerOnce={true}>
+            <TableFeatures data={features} />
+          </Fade>
         </div>
       </section>
     </>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 import './style.scss';
 
 export default function Faq({ data }) {
@@ -14,20 +15,26 @@ export default function Faq({ data }) {
       <div className="container">
         <div className="accordion">
           {data.faq.map((faq, i) => (
-            <div
-              className="accordion-item"
-              id={`question${Number(i + 1)}`}
+            <Fade
+              duration={1000 * Number(i + 1)}
+              triggerOnce={true}
+              direction={'up'}
               key={i}
             >
-              <a href={`#question${Number(i + 1)}`} className="accordion-link">
-                {faq.question}
-                <i className="fa fa-plus"></i>
-                <i className="fa fa-minus"></i>
-              </a>
-              <div className="answer">
-                <p>{faq.answer}</p>
+              <div className="accordion-item" id={`question${Number(i + 1)}`}>
+                <a
+                  href={`#question${Number(i + 1)}`}
+                  className="accordion-link"
+                >
+                  {faq.question}
+                  <i className="fa fa-plus"></i>
+                  <i className="fa fa-minus"></i>
+                </a>
+                <div className="answer">
+                  <p>{faq.answer}</p>
+                </div>
               </div>
-            </div>
+            </Fade>
           ))}
         </div>
       </div>

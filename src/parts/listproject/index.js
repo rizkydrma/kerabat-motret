@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Fade } from 'react-awesome-reveal';
 import Button from 'elements/button';
 import projects from 'assets/data/Projects.json';
 import './index.scss';
@@ -62,24 +62,35 @@ export default function ListProject() {
       {listProjects.length ? (
         <div className="containers">
           {listProjects.map((project, i) => (
-            <Button key={i} type="link" href={`/detail-project/${project.id}`}>
-              <div className="project__card">
-                <div className="project__tag">
-                  <span>{project.category}</span>
-                </div>
-                <figure className="img-wrapper">
-                  <img
-                    src={project.imageUrl}
-                    alt={project.name}
-                    className="img-cover"
-                  />
-                </figure>
+            <Fade
+              duration={1000 * Number(i + 1)}
+              direction={'right'}
+              triggerOnce={true}
+              key={i}
+            >
+              <Button
+                key={i}
+                type="link"
+                href={`/detail-project/${project.id}`}
+              >
+                <div className="project__card">
+                  <div className="project__tag">
+                    <span>{project.category}</span>
+                  </div>
+                  <figure className="img-wrapper">
+                    <img
+                      src={project.imageUrl}
+                      alt={project.name}
+                      className="img-cover"
+                    />
+                  </figure>
 
-                <div className="project__meta-wrapper">
-                  <h5>{project.name}</h5>
+                  <div className="project__meta-wrapper">
+                    <h5>{project.name}</h5>
+                  </div>
                 </div>
-              </div>
-            </Button>
+              </Button>
+            </Fade>
           ))}
         </div>
       ) : (

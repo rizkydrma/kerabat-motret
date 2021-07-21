@@ -1,5 +1,7 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 import './index.scss';
+
 import Button from 'elements/button';
 
 export default function LandingProjects({ data }) {
@@ -7,12 +9,16 @@ export default function LandingProjects({ data }) {
     <section id="portfolio">
       <div className="container portfolio">
         {data.listProjects.map((project, i) => (
-          <figure
-            className={`portfolio__image ${'portfolio__image' + Number(i + 1)}`}
-            key={i}
-          >
-            <img src={project.imageUrl} alt={`project${i}`} />
-          </figure>
+          <Fade duration={2000 * Number(i + 1)} triggerOnce={true} key={i}>
+            <figure
+              className={`portfolio__image ${
+                'portfolio__image' + Number(i + 1)
+              }`}
+              key={i}
+            >
+              <img src={project.imageUrl} alt={`project${i}`} />
+            </figure>
+          </Fade>
         ))}
       </div>
       <div className="container under__portfolio">
