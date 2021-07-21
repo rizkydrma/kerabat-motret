@@ -24,6 +24,8 @@ export default function PricePlan() {
     setIsActive(param);
   };
 
+  console.log(listPricing);
+
   return (
     <>
       <section className="plan">
@@ -64,31 +66,39 @@ export default function PricePlan() {
           </div>
         </div>
         <div className="container container__card">
-          {listPricing.options.map((pricing, i) => {
-            if (listPricing.options.length > 2) {
-              if (i === 1) {
-                return <PricingCard isMainCard key={i} data={pricing} />;
-              } else {
-                return <PricingCard isSubCard key={i} data={pricing} />;
+          {listPricing !== undefined ? (
+            listPricing.options.map((pricing, i) => {
+              if (listPricing.options.length > 2) {
+                if (i === 1) {
+                  return <PricingCard isMainCard key={i} data={pricing} />;
+                } else {
+                  return <PricingCard isSubCard key={i} data={pricing} />;
+                }
               }
-            }
-            return <PricingCard isMainCard key={i} data={pricing} />;
-          })}
+              return <PricingCard isMainCard key={i} data={pricing} />;
+            })
+          ) : (
+            <div className="empty">Tidak Ada Data</div>
+          )}
         </div>
       </section>
-      <section className="features">
-        <div className="container">
-          <h1 className="features__title">Features</h1>
-          <p className="features__sub-title">
-            enjoy the unique feature on every plan.
-          </p>
-        </div>
-        <div className="container">
-          <Fade duration={3000} triggerOnce={true}>
-            <TableFeatures data={features} />
-          </Fade>
-        </div>
-      </section>
+      {listPricing !== undefined ? (
+        <section className="features">
+          <div className="container">
+            <h1 className="features__title">Features</h1>
+            <p className="features__sub-title">
+              enjoy the unique feature on every plan.
+            </p>
+          </div>
+          <div className="container">
+            <Fade duration={3000} triggerOnce={true}>
+              <TableFeatures data={features} />
+            </Fade>
+          </div>
+        </section>
+      ) : (
+        <></>
+      )}
     </>
   );
 }

@@ -3,7 +3,7 @@ import './index.scss';
 
 export default function GallaeryProject({ data }) {
   return (
-    <div className="containers">
+    <div className="hero__containers">
       {data.galleryImages.map((dataImage, i) => {
         let random1 = Math.round(Math.random() * 3 + 1);
         let random2 = Math.round(Math.random() * 2 + 1);

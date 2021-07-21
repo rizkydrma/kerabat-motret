@@ -9,25 +9,26 @@ export default function Selection({ data }) {
       <div className="shadow"></div>
       <div className="container selection">
         {data.map((selection, i) => (
-          <Fade key={i} duration={1500 * Number(i + 1)} triggerOnce={true}>
-            <div
-              className="card-selection translate"
-              data-speed={selection.speed}
-            >
-              <figure className="wrapper-image">
-                <img
-                  src={selection.imageUrl}
-                  alt=""
-                  className="img-selection"
-                />
-                <figcaption>
-                  <Button href={selection.target} type="link">
+          <Fade key={i} duration={500 * Number(i + 1)} triggerOnce={true}>
+            <Button href={selection.target} type="link">
+              <div
+                className="card-selection translate"
+                data-speed={selection.speed}
+              >
+                <figure className="wrapper-image">
+                  <img
+                    src={selection.imageUrl}
+                    alt=""
+                    className="img-selection"
+                  />
+                  <figcaption>
                     {selection.name}
-                  </Button>
-                  <i className="fa fa-caret-right" aria-hidden="true"></i>
-                </figcaption>
-              </figure>
-            </div>
+
+                    <i className="fa fa-caret-right" aria-hidden="true"></i>
+                  </figcaption>
+                </figure>
+              </div>
+            </Button>
           </Fade>
         ))}
       </div>

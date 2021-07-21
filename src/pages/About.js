@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-
 import Header from 'parts/header';
-import ContactForm from 'parts/contactForm/contactForm';
+import Hero from 'parts/aboutHero/aboutHero';
+import CardTeams from 'parts/cardTeams/cardTeams';
+import Footer from 'parts/footer';
 
-export default function Contact() {
+export default function About() {
   useEffect(() => {
     window.scrollTo(0, 0);
     document.body.classList.remove('hidden');
@@ -11,7 +12,9 @@ export default function Contact() {
   return (
     <>
       <Header />
-      <ContactForm />
+      <Hero />
+      <CardTeams />
+      <Footer />
     </>
   );
 }

@@ -10,7 +10,7 @@ export default function ProjectHero() {
         <Fade duration={2000} triggerOnce={true} direction={'left'}>
           <h1 className="projectHero__title">Kerabat Projects</h1>
         </Fade>
-        <Fade duration={2500} triggerOnce={true} direction={'right'}>
+        <Fade duration={2500} triggerOnce={true} direction={'down'}>
           <img
             src={ImageBackground}
             alt="kamera miring 45 derajat"

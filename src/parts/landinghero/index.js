@@ -1,5 +1,4 @@
 import React, { useEffect, useCallback } from 'react';
-import { Fade } from 'react-awesome-reveal';
 import './index.scss';
 import Mountain1 from 'assets/images/background/mountain-1.png';
 import Mountain2 from 'assets/images/background/mountain-2.png';

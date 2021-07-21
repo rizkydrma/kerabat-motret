@@ -4,10 +4,10 @@
   },
   "selection": [
     {
-      "name": "Free Presets",
+      "name": "Production",
       "imageUrl": "images/selection/picture1.png",
       "speed": "0.3",
-      "target": "/free-presets"
+      "target": "/production"
     },
     {
       "name": "Pricing",
@@ -25,7 +25,7 @@
       "name": "Our Teams",
       "imageUrl": "images/selection/picture4.png",
       "speed": "0.2",
-      "target": "/our-teams"
+      "target": "/about"
     }
   ],
   "about": {

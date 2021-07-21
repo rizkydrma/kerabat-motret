@@ -38,6 +38,13 @@
   .container__card {
     min-height: 500px;
     column-gap: 20px;
+
+    .empty {
+      padding: 2rem 5rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
   }
 }
 @media (max-width: 468px) {

@@ -62,12 +62,7 @@ export default function ListProject() {
       {listProjects.length ? (
         <div className="containers">
           {listProjects.map((project, i) => (
-            <Fade
-              duration={1000 * Number(i + 1)}
-              direction={'right'}
-              triggerOnce={true}
-              key={i}
-            >
+            <Fade duration={1000 * Number(i + 1)} triggerOnce={true} key={i}>
               <Button
                 key={i}
                 type="link"
