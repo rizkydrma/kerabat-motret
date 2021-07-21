@@ -79,94 +79,10 @@
 }
 
 @media (max-width: 468px) {
-  .hero {
-    padding: 0 1rem;
-    background-size: cover;
-  }
-
-  .hero .container h1 {
-    font-size: 3rem;
-  }
-
-  .hero .container p {
-    font-size: 0.7rem;
-  }
-
-  .nav-items {
-    padding: 1rem 3rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .nav-links li {
-    margin-bottom: 2rem;
-  }
-
-  .nav-links li a {
-    font-size: 1.2rem;
-  }
-  .nav-items {
-    padding: 1rem 2rem;
-  }
-  nav .social-media {
-    display: none;
-  }
-  .container,
-  .features .container,
-  footer .container {
-    padding: 0 1rem;
-  }
-
-  .plan .container:nth-child(1) {
-    margin-bottom: 10px;
-  }
-
-  .plan .business-plan {
-    width: 100%;
-    height: auto;
-  }
-
-  .plan .plan__card {
-    margin: -1rem 0;
-  }
-
-  .plan .plan__card.card__sub {
-    transform: scale(0.8);
-  }
-  .plan .plan__card.card__main {
-    transform: scale(0.9);
-  }
-
-  .business-plan .btn-plan {
-    font-size: 0.5rem;
-    padding: 6px;
-  }
-  .container__card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .features .features__title,
-  .features .features__sub-title {
-    transform: scale(0.7);
-  }
-
-  .features table,
-  .features table i {
-    font-size: 0.8rem;
-  }
-
-  .features table thead tr td {
-    padding: 0 10px;
-  }
-
   .faq .container:nth-child(2) {
     width: 100%;
     margin: 0 auto;
+    padding: 1rem;
   }
 
   .faq .faq__title {

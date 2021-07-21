@@ -19,7 +19,7 @@ export default function index() {
           <div className="footer__part2">
             <ul>
               <li>
-                <Button href="#" type="link">
+                <Button href="/contact" type="link">
                   Contact Us
                 </Button>
               </li>
@@ -34,12 +34,12 @@ export default function index() {
                 </Button>
               </li>
               <li>
-                <Button href="#" type="link">
+                <Button href="/" type="link">
                   Kerabat Motret
                 </Button>
               </li>
               <li>
-                <Button href="#" type="link">
+                <Button href="/production" type="link">
                   Production
                 </Button>
               </li>

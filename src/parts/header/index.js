@@ -42,7 +42,7 @@ export default function Header() {
 
         <ul className={`nav-links ${drawer ? 'open' : ''} `}>
           <li>
-            <Button href="/about-us" type="link">
+            <Button href="/about" type="link">
               About Us
             </Button>
           </li>

@@ -106,10 +106,8 @@
 }
 
 @media (max-width: 468px) {
-  .container,
-  .features .container,
-  footer .container {
-    padding: 0 1rem;
+  .features .container {
+    padding: 0;
   }
 
   .plan .container:nth-child(1) {

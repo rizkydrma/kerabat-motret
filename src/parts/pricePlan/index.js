@@ -24,8 +24,6 @@ export default function PricePlan() {
     setIsActive(param);
   };
 
-  console.log(listPricing);
-
   return (
     <>
       <section className="plan">
