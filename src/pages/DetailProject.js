@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Redirect } from 'react-router-dom';
 import Header from 'parts/header';
 import Hero from 'parts/detailProjectHero';
 import Gallery from 'parts/gallaeryProject';
@@ -13,17 +13,23 @@ export default function DetailProject() {
   const detailProject = dataProjects.find(
     (project) => Number(project.id) === Number(id),
   );
+
   useEffect(() => {
     window.title = 'Detail Project';
     window.scrollTo(0, 0);
     document.body.classList.remove('hidden');
   }, []);
-  return (
-    <>
-      <Header />
-      <Hero data={detailProject} />
-      <Gallery data={detailProject} />
-      <Footer />
-    </>
-  );
+
+  if (detailProject.galleryImages !== undefined) {
+    return (
+      <>
+        <Header />
+        <Hero data={detailProject} />
+        <Gallery data={detailProject} />
+        <Footer />
+      </>
+    );
+  } else {
+    return <Redirect to="/pagenotfound" />;
+  }
 }

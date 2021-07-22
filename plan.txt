@@ -1,0 +1,3 @@
+[x] Jika tidak ada project (Project Page)
+[.] Parallax (Landing Page)
+[.] Selection Card Susah di tekan (Landing Page)

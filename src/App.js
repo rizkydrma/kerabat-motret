@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Production from './pages/Production';
 import DetailProject from './pages/DetailProject';
+import PageNotFound from 'pages/PageNotFound';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/contact" component={Contact}></Route>
       <Route path="/production" component={Production}></Route>
       <Route path="/projects" component={Projects}></Route>
+      <Route path="/pagenotfound" component={PageNotFound}></Route>
       <Route path="/detail-project/:id" component={DetailProject}></Route>
     </Router>
   );
