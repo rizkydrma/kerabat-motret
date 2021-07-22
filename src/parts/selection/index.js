@@ -7,14 +7,11 @@ export default function Selection({ data }) {
   return (
     <section id="selection">
       <div className="shadow"></div>
-      <div className="container selection">
+      <div className="container selection translate" data-speed="0.2">
         {data.map((selection, i) => (
           <Fade key={i} duration={500 * Number(i + 1)} triggerOnce={true}>
             <Button href={selection.target} type="link">
-              <div
-                className="card-selection translate"
-                data-speed={selection.speed}
-              >
+              <div className="card-selection">
                 <figure className="wrapper-image">
                   <img
                     src={selection.imageUrl}

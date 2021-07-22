@@ -30,7 +30,7 @@ export default function LandingHero(props) {
         src={Mountain1}
         className="mountain1 translate"
         alt=""
-        data-speed="-0.1"
+        data-speed="0.2"
       />
       <img
         src={Mountain2}

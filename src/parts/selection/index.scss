@@ -1,5 +1,5 @@
 section#selection {
-  min-height: 610px;
+  min-height: 650px;
 
   .shadow {
     position: absolute;
@@ -9,31 +9,31 @@ section#selection {
     left: 0;
     z-index: 22;
     background: linear-gradient(to top, #030303, transparent);
-  }
 
-  .container {
-    max-width: 70rem;
-    padding: 0 2rem;
-    margin: 0 auto;
+    @media (max-width: 468px) {
+      height: 500px;
+    }
   }
 
   .selection {
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 2rem;
+    gap: 2rem;
     align-items: center;
     justify-content: space-evenly;
     background-image: url('/assets/images/background/background.png');
     background-repeat: no-repeat;
+    padding: 0 9rem;
+
+    @media (max-width: 468px) {
+      padding: 0 2rem;
+    }
 
     .card-selection {
       width: 100%;
       position: relative;
       overflow: hidden;
-
-      &:nth-child(even) {
-        transform: translateY(40px);
-      }
 
       figure.wrapper-image {
         position: relative;
