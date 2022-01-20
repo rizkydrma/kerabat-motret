@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation } from 'swiper';
 
@@ -24,36 +26,80 @@ export default function cardTeams() {
           }}
         >
           <SwiperSlide>
-            <div className="card-team">
-              <div className="meta-wrapper">
-                <h3>Andre Saktyanto.</h3>
-                <h6>Co Founder & Business Development</h6>
+            <Link
+              to={{ pathname: 'https://instagram.com/andresaktiyanto' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="card-team">
+                <img
+                  src="images/card-teams/andre-min.jpg"
+                  alt="andre"
+                  style={{ height: '100%', width: '100%', objectFit: 'cover' }}
+                />
+                <div className="meta-wrapper">
+                  <h3>Andre Saktyanto.</h3>
+                  <h6>Co Founder & Business Development</h6>
+                </div>
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card-team">
-              <div className="meta-wrapper">
-                <h3>Azhar Alaudin.</h3>
-                <h6>Co Founder & Project Manager</h6>
+            <Link
+              to={{ pathname: 'https://instagram.com/zraldn' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="card-team">
+                <img
+                  src="images/card-teams/azhar-min.jpg"
+                  alt="azhar"
+                  style={{ height: '100%', width: '100%', objectFit: 'cover' }}
+                />
+                <div className="meta-wrapper">
+                  <h3>Azhar Alaudin.</h3>
+                  <h6>Co Founder & Project Manager</h6>
+                </div>
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card-team">
-              <div className="meta-wrapper">
-                <h3>Rizky Darma R.</h3>
-                <h6>Co Founder & Head Of Design</h6>
+            <Link
+              to={{ pathname: 'https://instagram.com/rizkydrma' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="card-team">
+                <img
+                  src="images/card-teams/rizky-min.jpg"
+                  alt="rizky"
+                  style={{ height: '100%', width: '100%', objectFit: 'cover' }}
+                />
+                <div className="meta-wrapper">
+                  <h3>Rizky Darma R.</h3>
+                  <h6>Co Founder & Head Of Design</h6>
+                </div>
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card-team" id="slide4">
-              <div className="meta-wrapper">
-                <h3>Viery Azharul H.</h3>
-                <h6>Co Founder & Managing Director</h6>
+            <Link
+              to={{ pathname: 'https://instagram.com/vieryazharul' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="card-team" id="slide4">
+                <img
+                  src="images/card-teams/viery-min.jpg"
+                  alt="viery"
+                  style={{ height: '100%', width: '100%', objectFit: 'cover' }}
+                />
+                <div className="meta-wrapper">
+                  <h3>Viery Azharul H.</h3>
+                  <h6>Co Founder & Managing Director</h6>
+                </div>
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
         </Swiper>
       </div>
