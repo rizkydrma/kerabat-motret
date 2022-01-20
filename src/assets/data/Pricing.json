@@ -5,7 +5,7 @@
       "options": [
         {
           "type": "Basic",
-          "price": "499.123",
+          "price": "X99.123",
           "features": [
             {
               "softFiles": true,
@@ -19,7 +19,7 @@
         },
         {
           "type": "Premium",
-          "price": "599.453",
+          "price": "X99.453",
           "features": [
             {
               "softFiles": true,
@@ -33,7 +33,7 @@
         },
         {
           "type": "Best",
-          "price": "699,456",
+          "price": "X99,456",
           "features": [
             {
               "softFiles": true,
@@ -52,7 +52,7 @@
       "options": [
         {
           "type": "Basic",
-          "price": "399.221",
+          "price": "X99.221",
           "features": [
             {
               "softFiles": true,
@@ -66,7 +66,7 @@
         },
         {
           "type": "Premium",
-          "price": "499.891",
+          "price": "X99.891",
           "features": [
             {
               "softFiles": true,
@@ -80,7 +80,7 @@
         },
         {
           "type": "Best",
-          "price": "649.542",
+          "price": "X49.542",
           "features": [
             {
               "softFiles": true,
@@ -99,7 +99,7 @@
       "options": [
         {
           "type": "Best",
-          "price": "1.399.542",
+          "price": "X.399.542",
           "features": [
             {
               "softFiles": true,
@@ -118,7 +118,7 @@
       "options": [
         {
           "type": "Basic",
-          "price": "199.221",
+          "price": "X99.221",
           "features": [
             {
               "softFiles": true,
@@ -132,7 +132,7 @@
         },
         {
           "type": "Premium",
-          "price": "299.891",
+          "price": "X99.891",
           "features": [
             {
               "softFiles": true,
@@ -146,7 +146,7 @@
         },
         {
           "type": "Best",
-          "price": "349.542",
+          "price": "X49.542",
           "features": [
             {
               "softFiles": true,

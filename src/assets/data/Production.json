@@ -3,20 +3,20 @@
     {
       "id": 1,
       "name": "Design Invitation Card",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas nulla libero, eligendi debitis dolores vitae unde voluptatibus esse quibusdam consequuntur odit expedita architecto quas. Recusandae consectetur, beatae cum iusto dolorum voluptatem ex ab facilis optio accusamus aliquid, nesciunt laborum expedita blanditiis qui, voluptatibus tenetur. Dolor fugiat magnam qui perspiciatis.",
+      "description": "Desain kartu undangan yang menarik, dapat dikustom sebagaimana anda inginkan, kami pun menyediakan banyak desain kartu undangan yang sangat menarik.",
       "imageUrl": "/images/production/invitation-card/invitation-card-1.jpg"
     },
     {
       "id": 2,
       "name": "Invitation Card Virtual",
 
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas nulla libero, eligendi debitis dolores vitae unde voluptatibus esse quibusdam consequuntur odit expedita architecto quas. Recusandae consectetur, beatae cum iusto dolorum voluptatem ex ab facilis optio accusamus aliquid, nesciunt laborum expedita blanditiis qui, voluptatibus tenetur. Dolor fugiat magnam qui perspiciatis.",
+      "description": "Jika anda tidak ingin ribet menemui kerabat, sahabat anda untuk memberikan kartu undangan, anda juga dapat membuat kartu undangan virtual dalam bentuk website yang menarik penuh animasi dan informatif",
       "imageUrl": "/images/production/virtual-invitation-card/virtual-card-1.jpg"
     },
     {
       "id": 3,
       "name": "Animation Invitation Card",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas nulla libero, eligendi debitis dolores vitae unde voluptatibus esse quibusdam consequuntur odit expedita architecto quas. Recusandae consectetur, beatae cum iusto dolorum voluptatem ex ab facilis optio accusamus aliquid, nesciunt laborum expedita blanditiis qui, voluptatibus tenetur. Dolor fugiat magnam qui perspiciatis.",
+      "description": "Kami pun menyediakan motion graphic lucu dan menarik sebagai undangan untuk para kerabat, dan sahabat anda",
       "imageUrl": "/images/production/animation-invitation/animation-invitation-1.jpg"
     }
   ]
